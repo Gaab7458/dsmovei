@@ -3,7 +3,8 @@
 :root { 
     --bg-gray:#f5f5dc;
     --color-primary: #4D41C0;
-    --white: #FFFFFF
+    --white: #FFFFFF;
+    --text-gray: #4A4A4A;
 
 }
 
@@ -23,7 +24,7 @@ html,body{
 
 header {
     background-color: var(--color-primary);
-    color: var(--white);
+    color:var(--bg-gray);
     height: 60px;
     display: flex;
     align-items: center;
@@ -55,3 +56,37 @@ align-content: center;
 .dsmovei-contact-container img{
     margin-right: 10%;
 }
+#dsmovie-card-list{
+    padding: 40px 0;}
+
+.dsmovei-card{
+    width: 360px;;}
+
+.dsmovei-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;}
+
+.dsmovei-card-description {
+    background-color:var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.dsmovei-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.dsmovei-btn, .dsmovei-btn:hover{
+    width: 120px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
