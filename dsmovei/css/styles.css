@@ -92,4 +92,8 @@ align-content: center;
     align-items: center;
     border-radius: 4px;
 }
+.dsmovei-form-container{
+    padding: 40px 0;
+    max-width: 480px;
+}
 
