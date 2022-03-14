@@ -1,2 +1,3 @@
 # dsmovei
-Intensão  de  Dev   
+Intensão  de  Dev !
+Objetivo: Fabricar um site com  integração total
