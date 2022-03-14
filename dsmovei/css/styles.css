@@ -5,6 +5,7 @@
     --color-primary: #4D41C0;
     --white: #FFFFFF;
     --text-gray: #4A4A4A;
+    --text-light-gray: #aaa
 
 }
 
@@ -91,9 +92,40 @@ align-content: center;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    border: 0;
 }
 .dsmovei-form-container{
     padding: 40px 0;
     max-width: 480px;
 }
+.dsmovei-form-description{
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.dsmovei-form-description h3{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 700;
 
+}
+.dsmovei-form{
+    width: 100%;
+}
+.dsmovei-form-btn-container{
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dsmovei-form-group{
+    margin-bottom: 20px;}
+
+.dsmovei-form-group label{
+    color: var(--text-light-gray);
+
+}
